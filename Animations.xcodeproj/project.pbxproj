@@ -11,6 +11,8 @@
 		0486FCC02C11E5C400C5F7B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FCBF2C11E5C400C5F7B3 /* ContentView.swift */; };
 		0486FCC22C11E5CC00C5F7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486FCC12C11E5CC00C5F7B3 /* Assets.xcassets */; };
 		0486FCC52C11E5CC00C5F7B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486FCC42C11E5CC00C5F7B3 /* Preview Assets.xcassets */; };
+		0486FCCC2C11F70F00C5F7B3 /* Animation-Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FCCB2C11F70F00C5F7B3 /* Animation-Binding.swift */; };
+		0486FCCE2C11FE1800C5F7B3 /* Explicit-Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FCCD2C11FE1800C5F7B3 /* Explicit-Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0486FCBF2C11E5C400C5F7B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0486FCC12C11E5CC00C5F7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0486FCC42C11E5CC00C5F7B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0486FCCB2C11F70F00C5F7B3 /* Animation-Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-Binding.swift"; sourceTree = "<group>"; };
+		0486FCCD2C11FE1800C5F7B3 /* Explicit-Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Explicit-Animation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0486FCBD2C11E5C400C5F7B3 /* AnimationsApp.swift */,
 				0486FCBF2C11E5C400C5F7B3 /* ContentView.swift */,
+				0486FCCB2C11F70F00C5F7B3 /* Animation-Binding.swift */,
+				0486FCCD2C11FE1800C5F7B3 /* Explicit-Animation.swift */,
 				0486FCC12C11E5CC00C5F7B3 /* Assets.xcassets */,
 				0486FCC32C11E5CC00C5F7B3 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0486FCCC2C11F70F00C5F7B3 /* Animation-Binding.swift in Sources */,
 				0486FCC02C11E5C400C5F7B3 /* ContentView.swift in Sources */,
+				0486FCCE2C11FE1800C5F7B3 /* Explicit-Animation.swift in Sources */,
 				0486FCBE2C11E5C400C5F7B3 /* AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
